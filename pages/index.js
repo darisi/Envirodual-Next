@@ -48,7 +48,10 @@ const Home = (props) => {
                 />
               </span>
             </span>
-            <a href="mailto:info@envirodual.com?subject=" className="home-link">
+            <a
+              href="mailto:info@envirodual.com?subject="
+              className="home-link cursor-pointer"
+            >
               info@envirodual.com
             </a>
           </div>
@@ -136,7 +139,7 @@ const Home = (props) => {
             width: 100%;
             height: auto;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
             justify-content: center;
           }
           .home-text2 {
@@ -155,9 +158,24 @@ const Home = (props) => {
             color: rgb(255, 255, 255);
             margin-top: 24px;
             text-align: center;
+            transition: 0.3s;
             font-family: Inter;
+            border-color: rgba(255, 255, 255, 0);
+            border-width: 1px;
             text-transform: none;
             text-decoration: none;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 1px;
+          }
+          .home-link:hover {
+            border-width: 1px;
+            text-decoration: none;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 1px;
           }
           .home-text5 {
             color: rgb(255, 255, 255);
