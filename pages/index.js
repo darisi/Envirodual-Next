@@ -170,6 +170,7 @@ const Home = (props) => {
             border-bottom-width: 1px;
           }
           .home-link:hover {
+            border-color: rgba(255, 255, 255, 1);
             border-width: 1px;
             text-decoration: none;
             border-top-width: 0px;
