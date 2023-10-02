@@ -42,6 +42,9 @@ const Home = (props) => {
             <span className="home-text5">T:</span>
             <span> +386(0)123 1234</span>
           </span>
+          <span className="home-text7">
+            Envirodual d.o.o., Tepanje 28D, 3210 Sl. Konjice, Slovenija
+          </span>
         </div>
       </div>
       <style jsx>
@@ -119,6 +122,15 @@ const Home = (props) => {
           }
           .home-text5 {
             font-weight: 700;
+          }
+          .home-text7 {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            margin-top: 48px;
+            text-align: center;
+            font-family: Inter;
+            text-transform: none;
+            text-decoration: none;
           }
           @media (max-width: 991px) {
             .home-container1 {
